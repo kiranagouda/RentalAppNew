@@ -9,6 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class HomePage {
 	@Test
 	public void home() {
+		//welcome
 	   WebDriverManager.chromedriver().setup();
 	      WebDriver driver=new ChromeDriver();
 	      driver.get("https://www.flipkart.com");
